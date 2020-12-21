@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Welcome to AdiPi4!</title>
+<title>AdiPi4</title>
 <style>
     body {
         width: 35em;
@@ -9,10 +9,21 @@
         font-family: Tahoma, Verdana, Arial, sans-serif;
     }
 </style>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+  integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+  crossorigin=""/>
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+  integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+  crossorigin=""></script>
+
+<script src="https://d3js.org/d3.v6.min.js"></script>
 </head>
 <body>
 <h1>Welcome to AdiPi4</h1>
-<p>>A page maintained by <a href="https://github.com/adichad/adipi4-http">adichad</a></p>
+<p>A page maintained by <a href="https://github.com/adichad/adipi4-http">adichad</a></p>
+<div id="mapid" style="width: 600px; height: 400px;"></div>
+<script src="script/map.leaflet.js"></script>
 
+<script src="script/style.d3.js"></script>
 </body>
 </html>
